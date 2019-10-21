@@ -1,4 +1,4 @@
-var connection = require("../config/connection.js");
+var connection = require("./connection.js");
 
 var orm = {
 
@@ -17,6 +17,7 @@ var orm = {
       cb(result);
     });
   },
+  // inserts values into burger_name 
   create: function(tableInput, val, cb) {
     connection.query('INSERT INTO '+tableInput+" (burger_name) VALUES ('"+val+"');", function(err, result) {
       if (err) throw err;

@@ -12,7 +12,7 @@
                     <pre>{{this.id}}. {{this.burger_name}}</pre>
                 </div>
                 <div class="col-xs-3 text-center">
-                    <form action="/burgers/update?_method=PUT" method="POST" class="button-size">
+                    <form method="POST" action="/burgers/update?_method=PUT" class="button-size">
                         <input type="hidden" name="burger_id" type="text" value={{this.id}}>
                         <br>
                         <button type="submit" class="btn btn-primary">EAT IT</button>
@@ -31,7 +31,7 @@
             {{/if}}
             {{/each}}
         </div>
-        
+
     </div>
 </div>
 <!--Submits data to the routes file and adds data to the create in ORM-->
