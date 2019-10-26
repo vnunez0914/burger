@@ -22,7 +22,7 @@ Eat-Da-Burger! is a restaurant app that lets users input the names of burgers th
 
   * [Enjoy a Burger](https://fast-retreat-63330.herokuapp.com/)
 
-    * This app is not currently deployed to Heroku. Below is a demo of it updating the database and making a new burger to be eaten.
+    * Below is a quick demo of the database updating and submitting a new burger to be eaten.
  
       ![](https://media.giphy.com/media/cKzgMWqjskY8XgCZzN/giphy.gif)
 
